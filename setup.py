@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
 from os import path
 import sys
-from onnx_coreml import __version__
 
-VERSION = __version__
+
+VERSION = '1.2'
 
 here = path.abspath(path.dirname(__file__))
 
